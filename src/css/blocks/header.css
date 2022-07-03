@@ -1,0 +1,49 @@
+/* line 1, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 6, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__logo {
+  width: 250px;
+}
+
+/* line 9, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__logo img {
+  width: 100%;
+}
+
+/* line 14, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__official {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+/* line 20, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__official span {
+  font-size: 18px;
+  display: inline-block;
+}
+
+/* line 26, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__phone {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+/* line 34, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/header.scss */
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=header.css.map */

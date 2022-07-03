@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "header.css",
+	"sources": [
+		"../../sass/blocks/header.scss"
+	],
+	"sourcesContent": [
+		".header {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n\r\n    &__logo {\r\n        width: 250px;\r\n\r\n        img {\r\n            width: 100%;\r\n        }\r\n    }\r\n\r\n    &__official {\r\n        text-align: center;\r\n        font-weight: 500;\r\n        font-size: 12px;\r\n        color: #FFFFFF;\r\n\r\n        span {\r\n            font-size: 18px;\r\n            display: inline-block;\r\n        }\r\n    }\r\n\r\n    &__phone {\r\n        display: block;\r\n        font-weight: 700;\r\n        font-size: 18px;\r\n        line-height: 18px;\r\n        color: #FFFFFF;\r\n        margin-bottom: 4px;\r\n    }\r\n    &__contacts{\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: flex-end;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAmCtB;;;AAjCI,AAAD,aAAO,CAAC;EACJ,KAAK,EAAE,KAAK;CAKf;;;AANA,AAGG,aAHG,CAGH,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;;AAGJ,AAAD,iBAAW,CAAC;EACR,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CAMjB;;;AAVA,AAMG,iBANO,CAMP,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,YAAY;CACxB;;;AAGJ,AAAD,cAAQ,CAAC;EACL,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,GAAG;CACrB;;;AACA,AAAD,iBAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,QAAQ;CACxB"
+}
