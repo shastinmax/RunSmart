@@ -1,0 +1,40 @@
+.benefits {
+    padding: 73px 0 65px;
+
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    &__item {
+        max-width: 245px;
+        text-align: center;
+
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+
+    &__title {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #0D0D0D;
+    }
+}

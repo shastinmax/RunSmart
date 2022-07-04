@@ -13,7 +13,7 @@
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url("../../img/promo-bg.jpg") center center/cover no-repeat;
+  background: url("../img/promo-bg.jpg") center center/cover no-repeat;
 }
 
 /* line 6, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_promo.scss */
@@ -158,6 +158,54 @@
   height: 50px;
   font-size: 16px;
   margin-top: 67px;
+}
+
+/* line 1, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits {
+  padding: 73px 0 65px;
+}
+
+/* line 4, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__header {
+  font-weight: 700;
+  font-size: 30px;
+  color: #0D0D0D;
+  text-align: center;
+}
+
+/* line 11, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* line 17, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__item {
+  max-width: 245px;
+  text-align: center;
+}
+
+/* line 21, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__item a {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+/* line 27, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__title {
+  margin-top: 35px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0D0D0D;
+}
+
+/* line 34, ../PROJECT/CSS+HTML/pulseStep/src/sass/blocks/_benefits.scss */
+.benefits__text {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #0D0D0D;
 }
 
 /*# sourceMappingURL=style.css.map */
