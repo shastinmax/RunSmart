@@ -5,7 +5,8 @@
         margin: 0 auto;
         position: relative;
     }
-    .prev,.next{
+
+    .slick-prev,.slick-next{
         border: none;
         background: none;
         position: absolute;
@@ -16,14 +17,12 @@
             width: 31px;
             height: 50px;}
     }
-    .prev{
+    .slick-prev{
         right: -66px;
         left: auto;
     }
-    .tns-item{
-        img{
-            display: block;
-            margin: 0 auto;
-        }
+    .slick-slide img{
+        max-width: 750px;
+        min-height: 580px;
     }
 }
