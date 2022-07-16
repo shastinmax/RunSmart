@@ -1,0 +1,48 @@
+.footer {
+    height: 630px;
+    margin-top: 53px;
+    position: relative;
+
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        p {
+            padding-top: 50px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        width: 460px;
+        height: 270px;
+        background: $main-color;
+        color: white;
+        text-align: center;
+
+        a {
+            display: block;
+            margin-top: 36px;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__icons {
+        width: 212px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            display: inline;
+        }
+    }
+}
