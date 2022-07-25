@@ -60,11 +60,36 @@ $(document).ready(function () {
 	$('.modal__close').on('click', function () {
 		$('.overlay,#consultation,#thanks,#order').fadeOut()
 	})
-	$('.button_buy').each(function (i){
-		$(this).on('click',function (){
+	$('.button_buy').each(function (i) {
+		$(this).on('click', function () {
 			$('#order .modal__descr').text($('.catalog__subtitle').eq(i).text())
 			$('.overlay,#order').fadeIn()
 		})
 	})
+
+	function validateForms(form){
+		$(form).validate({
+			rules: {
+				name: 'required',
+				phone: 'required',
+				email: {
+					required: true,
+					email: true
+				},
+			},
+			messages: {
+				name: "Пожалуйста введите свое имя !",
+				phone: "Пожалуйста введите свой телефон !",
+				email: {
+					required: "Пожалуйста введите свой email !",
+					email: "Неправильно указан email !"
+				}
+			}
+		})
+	}
+
+	validateForms('#order form')
+	validateForms('#consultation form')
+	validateForms('#consultation-form')
 });
 
