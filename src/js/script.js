@@ -67,7 +67,7 @@ $(document).ready(function () {
 		})
 	})
 
-	function validateForms(form){
+	function validateForms(form) {
 		$(form).validate({
 			rules: {
 				name: 'required',
@@ -91,5 +91,25 @@ $(document).ready(function () {
 	validateForms('#order form')
 	validateForms('#consultation form')
 	validateForms('#consultation-form')
+
+	$('form').submit(function (e) {
+		e.preventDefault();
+
+		if(!$(this).valid()){
+			return
+		}
+
+		$.ajax({
+			type: "POST",
+			url: "mailer/smart.php",
+			data: $(this).serialize()
+		}).done(function () {
+			$(this).find("input").val("");
+
+
+			$('form').trigger('reset')
+		})
+		return false;
+	})
 });
 
