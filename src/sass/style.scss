@@ -3,6 +3,9 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 .container{
     position: relative;
     max-width: 950px;
@@ -20,3 +23,4 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageUp";

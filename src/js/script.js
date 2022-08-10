@@ -111,5 +111,14 @@ $(document).ready(function () {
 		})
 		return false;
 	})
+
+	//PageUp
+	$(window).scroll(()=>{
+		if($(this).scrollTop() > 1600){
+			$('.pageUp').fadeIn();
+		}else{
+			$('.pageUp').fadeOut();
+		}
+	})
 });
 
