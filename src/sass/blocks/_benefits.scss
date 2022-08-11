@@ -10,6 +10,9 @@
     &__item {
         max-width: 245px;
         text-align: center;
+        &_animated{
+            animation:heartbeat 2s ease infinite ;
+        }
 
         a {
             color: #ff0000;
