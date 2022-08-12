@@ -120,5 +120,6 @@ $(document).ready(function () {
 			$('.pageUp').fadeOut();
 		}
 	})
+	new WOW().init()
 });
 
